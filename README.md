@@ -44,3 +44,46 @@ silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$ `more my_sor
  |15| propane.pdb|
  
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$
+## cut_linux_code
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$ `cd ../`
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data$ `cd animal-counts/`
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$ `ls
+animals.csv`
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$ `cat animals.csv`
+|2012-11-05,deer,5   |
+|--------------------|
+|2012-11-05,rabbit,22|
+|2012-11-05,raccoon,7|
+|2012-11-06,rabbit,19|
+|2012-11-06,deer,2   |
+|2012-11-06,fox,4    |
+|2012-11-07,rabbit,16|
+|2012-11-07,bear,1   |
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$ `cut -d ',' -f 2 animals.csv`
+|deer   |
+|-------|
+|rabbit |
+|raccoon|
+|rabbit |
+|deer   |
+|fox    |
+|rabbit |
+|bear   |
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$ `cut -d '-' -f 1 animals.csv`
+|2012|
+|----|
+|2012|
+|2012|
+|2012|
+|2012|
+|2012|
+|2012|
+|2012|
+
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$
+
