@@ -44,7 +44,7 @@ silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$ `more my_sor
  |15| propane.pdb|
  
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$
-## cut_linux_code
+## cut_linux_code and using delimiter
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/alkanes$ `cd ../`
 
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data$ `cd animal-counts/`
