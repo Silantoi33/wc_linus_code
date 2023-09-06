@@ -88,7 +88,7 @@ silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$ `cut -
 silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/animal-counts$
 
 ## grep 
-silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/writing$ `for a in $(cat names); do cat LittleWomen.txt | grep $a | wc -l; done`
+silantoi@DESKTOP-4CSCM70:~/shell-lesson-data/exercise-data/writing$ `for a in $(cat names); do cat LittleWomen.txt | grep $a | wc -l; echo $a; done`
 |    |
 |----|
 |1528|
